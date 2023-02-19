@@ -1,0 +1,20 @@
+{
+  "name": "flashcontent",
+  "version": "1.0.0",
+  "description": "Flash Content Website. Made using Sass and Bootstrap.",
+  "main": "js/index.js",
+  "scripts": {
+    "build": "sass sass/index.scss css/index.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flashcontent/flashcontent.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flashcontent/flashcontent.github.io/issues"
+  },
+  "homepage": "https://github.com/flashcontent/flashcontent.github.io#readme"
+}

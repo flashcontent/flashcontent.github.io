@@ -1,5 +1,22 @@
+.divm {
+  width: 50%;
+}
+
 .fixed {
   position: fixed;
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background: #FFF;
+    color: #000;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #333;
+    color: #FFF;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */

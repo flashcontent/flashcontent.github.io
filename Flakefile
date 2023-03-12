@@ -1,0 +1,7 @@
+project = "FlashContent";
+version = "1.2.0";
+
+task build() {
+	cmd("sass sass/index.scss css/index.css")
+	cmd("echo \"test\"")
+}

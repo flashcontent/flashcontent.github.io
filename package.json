@@ -1,7 +1,7 @@
 {
   "name": "flashcontent",
   "version": "1.0.0",
-  "description": "Flash Content Website. Made using Sass and Bootstrap.",
+  "description": "",
   "main": "js/index.js",
   "scripts": {
     "build": "sass sass/index.scss css/index.css"

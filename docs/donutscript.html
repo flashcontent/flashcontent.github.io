@@ -29,25 +29,7 @@
       </div>
     </nav>
     <div id="markdown-container" style="padding: 14px 14px; position: absolute; right: 50%;"></div>
-    <script>
-      const converter = new showdown.Converter();
-
-      const xhr = new XMLHttpRequest();
-      xhr.onreadystatechange = function() {
-        if (xhr.readyState === XMLHttpRequest.DONE) {
-          if (xhr.status === 200) {
-            const markdown = xhr.responseText;
-            const html = converter.makeHtml(markdown);
-            const container = document.getElementById('markdown-container');
-            container.innerHTML = html;
-          } else {
-            console.log('Error: ' + xhr.status);
-          }
-        }
-      };
-      xhr.open('GET', '/docs/pages/donutscript.md', true);
-      xhr.send(null);
-    </script>
+    <script type="text/javascript" src="/js/donutscript.js"></script>
     <div align="center">
       <br> <br> <br>
     </div>
